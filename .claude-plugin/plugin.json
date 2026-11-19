@@ -1,0 +1,5 @@
+{
+  "name": "goat",
+  "description": "GOAT model routing for Claude Code: triage, quick/build/deep/escalate workers with fixed model + effort, a verifier, and escalation rules.",
+  "hooks": "./hooks/hooks.json"
+}

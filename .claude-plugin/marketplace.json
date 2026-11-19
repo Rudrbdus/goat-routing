@@ -1,0 +1,8 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "goat-routing",
+  "owner": { "name": "Rudrbdus" },
+  "plugins": [
+    { "name": "goat", "description": "GOAT model routing: triage, route agents, verifier, escalation rules.", "source": "./" }
+  ]
+}

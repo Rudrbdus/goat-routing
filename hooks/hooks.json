@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact|fork",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"process.stdout.write(require('fs').readFileSync(require('path').join(process.env.CLAUDE_PLUGIN_ROOT, 'routing.md'), 'utf8'))\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
